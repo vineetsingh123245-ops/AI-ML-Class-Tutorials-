@@ -1,0 +1,15 @@
+color(red).
+color(blue).
+color(green).
+diff(X,Y):-
+    X\=Y.
+map(A,B,C,D):-
+    color(A),
+    color(B),
+    color(C),
+    color(D),
+    diff(A,B),
+    diff(A,C),
+    diff(B,C),
+    diff(C,D),
+    diff(B,D).
