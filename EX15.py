@@ -1,0 +1,11 @@
+def unify(x,y):
+    if x==y:
+        return
+    '''if x.islower():
+    return{x,y}'''
+    if y.islower():
+        return{y,x}
+
+#print(unify("x","Ram"))
+#print("A","A")
+print("x","y")
